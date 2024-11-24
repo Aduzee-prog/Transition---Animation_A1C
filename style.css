@@ -1,0 +1,47 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: 0;
+}
+/* section{
+    display: grid;
+} */
+.img1{
+    width: 100%;
+    height: 100vh;
+   
+}
+.img2{
+    width: 100px;
+    position: absolute;
+    animation-name: move;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+    0%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(-1500px);
+    }
+}
+m
+audio{
+    animation-name: sound;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+    animation-delay: 0s;
+
+}
+
+@keyframes sound {
+    0%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(-1500px);
+    }
+}
